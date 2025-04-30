@@ -192,7 +192,8 @@ reloader:
   #   custom_annotations:
   #     configmap: "my.company.com/configmap"
   #     secret: "my.company.com/secret"
-  custom_annotations: {}
+  custom_annotations: 
+    configmap: "metis/configmap"   
 
   serviceMonitor:
     # Deprecated: Service monitor will be removed in future releases of reloader in favour of Pod monitor
