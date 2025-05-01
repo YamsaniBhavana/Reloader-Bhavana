@@ -1,4 +1,4 @@
-# Generated from deployments/kubernetes/templates/chart/values.yaml.tmpl
+s# Generated from deployments/kubernetes/templates/chart/values.yaml.tmpl
 global:
   ## Reference to one or more secrets to be used when pulling images
   ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
@@ -193,7 +193,7 @@ reloader:
   #     configmap: "my.company.com/configmap"
   #     secret: "my.company.com/secret"
   custom_annotations: 
-    configmap: "reloader.stakater.com/match"   
+    configmap: "metis.configmap.reloader/match"   
 
   serviceMonitor:
     # Deprecated: Service monitor will be removed in future releases of reloader in favour of Pod monitor
